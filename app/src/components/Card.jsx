@@ -37,6 +37,8 @@ const Characters = ({ data }) => {
                         <CharacterName>{char.name}</CharacterName>
                         <CharacterInfo>Especie: {char.species}</CharacterInfo>
                         <CharacterInfo>Estado: {char.status}</CharacterInfo>
+                        <CharacterInfo>Origen: {char.origin.name}</CharacterInfo>
+                        <CharacterInfo>Ubicacion: {char.location.name}</CharacterInfo>
                     </CardCharacter>
                 ))
             }
